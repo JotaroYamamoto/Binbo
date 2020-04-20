@@ -10,28 +10,27 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
   </head>
   <body>
-  <div class="wrapper">
-    <header class='header'>
-      <div class="header__left">
-        <a href="/" class="header-title">一万円生活</a>
-      </div>
-      <div class="header__right">
-        <a href ="posts/add" class="header-list" >
-          投稿
-        </a>
-        <a href ="#" class="header-list" >
-          ログアウト
-        </a>
-        <div>
+    <div class="wrapper">
+      <header class='header'>
+        <div class="header__left">
+          <a href="/" class="header-title">一万円生活</a>
         </div>
-      </div>
-    </header>
-    @yield('content')
-    
+        <div class="header__right">
+          <a href ="posts/add" class="header-list" >
+            投稿
+          </a>
+          <a href ="#" class="header-list" >
+            ログアウト
+          </a>
+        </div>
+      </header>
+      @yield('content')
+    </div>
+    <footer class="footer">
+        <div class="footer-text">
+          ©copy-right2020 itiman-seikatsu
+        </div>
+      </footer> 
   </body>
-  <footer class="footer">
-      <div class="footer-text">
-        ©copy-right2020 itiman-sekatu
-      </div>
-  </footer> 
+
 </html>
